@@ -10,10 +10,11 @@ intents.members = True
 
 bot = commands.Bot('1', intents=intents, activity=disnake.Game(name="bots"))
 
-for filename in os.listdir('./bread_kingdom_commands'):
+for filename in os.listdir("main_bot_cog"):
     if filename.endswith('.py'):
-        bot.load_extension(f'bread_kingdom_commands.{filename[:-3]}')
+        bot.load_extension(f'main_bot_cog.{filename[:-3]}')
         print(filename + ' Loaded')
+
 
 @bot.slash_command()
 @commands.is_owner()
