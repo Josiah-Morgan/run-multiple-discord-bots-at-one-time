@@ -13,6 +13,6 @@ Run either one of the commands: /bot-add-server or /bot-add-global
 
 # Why use this?
 
-To run multiple custom bots that use the same code (you could make it where the users are allow to run the bot add commands to turn on the bots themselves if you want)
-Have one host provider to run all your bots, instead of having to get a new host everytime you make a new bot, just run them all on the same one
+- To run multiple custom bots that use the same code (you could make it where the users are allow to run the bot add commands to turn on the bots themselves if you want)
+- Have one host provider to run all your bots, instead of having to get a new host everytime you make a new bot, just run them all on the same one
 Both of these options would save them aswell
