@@ -37,7 +37,7 @@ class SetupBot(commands.Cog):
     self.loop = asyncio.get_event_loop()
 
 
-  # TODO: make a command to remove a bot from a thread (turn off a bot that is currently one)
+  # TODO: make a command to remove a bot from a thread (turn off a bot that is currently on)
 
   # The bot will only work in the guild id provied, 
   # make sure to invite the bot to the server first before running the commands
