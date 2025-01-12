@@ -4,9 +4,6 @@ import asyncio
 import aiohttp
 
 from bot import Client
-from utils.tools import guild_members
-from utils.embed import Embed
-from utils.config import Ids, Links
 
 
 GUILD_ID = 0
